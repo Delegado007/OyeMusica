@@ -1,0 +1,55 @@
+header{
+  font-family: 'Kanit', sans-serif;
+}
+#cuerpo{
+  min-height: 100vh;
+  background: linear-gradient(rgb(11, 69, 118) 0%, rgb(9, 17, 21) 100%);
+}
+#cartas{
+  font-family: Kanit, sans-serif;
+  font-weight: 700;
+}
+#targeta{
+  width: 21rem;
+}
+.card-img-top{
+  width: 8rem;
+}
+#box-inicio{
+  background: rgb(39,38,44);
+  background: linear-gradient(0deg, rgb(61, 42, 84) 0%, rgba(0,0,0,1) 100%);   
+  border: 1px solid rgb(56, 50, 65);    
+  border-radius: 15px;
+}
+
+#no_ayudar{
+  display: none!important;
+}
+
+#ayudar{
+  display: block!important;
+  color:rgb(255, 80, 80);
+}
+#idErrorForm{
+  display: flex;
+}
+.formError{
+  background-color: brown;
+  border-radius: 3px;
+}
+.formSend{
+  background-color: rgba(83, 167, 0, 0.822);
+  border-radius: 3px;
+}
+#botonEnviar{
+  max-width: 200px;
+}
+#header-logo{
+  height: 38px;
+}
+.error{
+  color:rgb(255, 0, 0);
+}
+.carousel-inner{
+  max-width: 500px;
+}
